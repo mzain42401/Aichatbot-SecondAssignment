@@ -1,0 +1,91 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  /* position: relative; */
+}
+
+#contact input,
+#contact button {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    border-radius: 20px;
+}
+
+#contact {
+    border-radius: 10px;
+    background: #F9F9F9;
+  padding: 25px;
+  margin-top: 50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  text-align: center;
+  margin: 5px 0 15px;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input
+ {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+
+ 
+#contact button {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #3B82F6;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button:hover {
+  background: #3b82f6;
+}
+
+
+.Design {
+  text-align: center;
+}
+
+
